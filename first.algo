@@ -1,0 +1,19 @@
+ALGORITHM algorithm_name
+VAR
+    c=:char:="gomycode lake one";
+    i=:INTEGRER:=0;
+    sum=: INTEGER:=0;
+    v=:INTEGER:=0;
+    w=:INTEGER:=1;
+BEGIN
+FOR i FROM 0 TO c.length-1    DO
+    sum:=sum+1;
+IF C[i]in[i,y]THEN
+  v=v+1
+END_IF
+IF C[i]=" " THEN 
+    w:=w+1
+    set_instructions
+END_IF
+END_FOR
+END 
